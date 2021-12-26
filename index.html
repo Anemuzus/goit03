@@ -11,65 +11,73 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="/" class="labe"> Web<span class="studio">Studio</span> </a>
-        <ul class="site-nav list">
-          <li><a href="" class="active-studio serif">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+    <header class="page-header">
+      <div class="container">
+        <nav>
+          <a href="/" class="labe"> Web<span class="studio">Studio</span> </a>
+          <ul class="site-nav list">
+            <li><a href="" class="active-studio serif">Студия</a></li>
+            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="mailtel list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mt">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="mt">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="mailtel list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="mt">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="mt">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
-    <!-- ---------------------main--------------- -->
+    <!-- ----------------------------------------------- HERO------------------------------------ -->
     <main>
       <section class="hero">
         <h1 class="title-hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <!-- ----------------------------button---------------------------- -->
+
         <button type="button" class="button">Заказать услугу</button>
       </section>
-      <!-- преимущества -->
+      <!-- ---------------------------------------------------------------------преимущества -->
       <section>
-        <ul class="list">
-          <li>
-            <h3 class="title-benefits">Внимание к деталям</h3>
-            <p class="benefits">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="title-benefits">Пунктуальность</h3>
-            <p class="benefits">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="title-benefits">Планирование</h3>
-            <p class="benefits">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="title-benefits">Современные технологии</h3>
-            <p class="benefits">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="list">
+            <li>
+              <h3 class="title-benefits">Внимание к деталям</h3>
+              <p class="benefits">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li>
+              <h3 class="title-benefits">Пунктуальность</h3>
+              <p class="benefits">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <h3 class="title-benefits">Планирование</h3>
+              <p class="benefits">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <h3 class="title-benefits">Современные технологии</h3>
+              <p class="benefits">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <!-- картинки -->
-      <section>
+      <!----------------------------------------------------------------- картинки -->
+      <section class="container">
         <h2 class="zaholovok">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
@@ -83,8 +91,8 @@
           </li>
         </ul>
       </section>
-      <!----------------------------------- команда -->
-      <section class="section-comand">
+      <!--------------------------------------------------------------------- команда -->
+      <section class="section-comand container">
         <h2 class="zaholovok">Наша команда</h2>
         <ul class="list">
           <li>
