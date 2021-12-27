@@ -26,12 +26,16 @@ body {
 .list {
   list-style: none;
 }
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 .page-header {
 }
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   outline: 2px solid tomato;
 }
 .labe {
@@ -53,6 +57,7 @@ body {
 }
 .studio {
   color: #000000;
+  margin-right: 93px;
 }
 .serif {
   font-style: normal;
@@ -62,7 +67,16 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.link {
+  margin-right: 50px;
+}
+.link-last {
+  margin-right: 0;
+}
 
+.site-nav {
+  display: flex;
+}
 .site-nav .link {
   color: var(--primary-text-color);
 }
@@ -78,6 +92,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+/* -----------хедер nav правый верх */
+.mailtel {
+  display: flex;
+  margin-left: auto;
 }
 .mailtel .mt {
   color: var(--benefits);
@@ -113,6 +132,7 @@ body {
   margin-bottom: 40px;
 }
 /* ----------------------------------------button--------------------------- */
+
 .button {
   border-radius: 4px;
   padding: 10px 32px;
@@ -129,6 +149,18 @@ body {
   background-color: #188ce8;
 }
 /* ----------------------------------------benefits */
+/* ---------управление Дисплей Флексом на списках,кроме Хедера и Футера */
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.feature-list-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 34px;
+}
 .container-benefits {
   outline: 2px solid tomato;
   margin-bottom: 94px;
@@ -146,6 +178,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--benefits);
+  width: 250px;
 }
 /* ------------------------------------comand-master--------------- */
 
@@ -204,6 +237,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   color: var(--bgc-text-hero);
+  margin-right: 8px;
 }
 .button-portfolio {
   border: 1px solid transparent;
@@ -215,6 +249,7 @@ body {
   line-height: 1.62;
   color: var(--primary-text-color);
   background-color: var(--bcg-comand-and-button-filter);
+  margin-right: 8px;
 }
 .button-portfolio:hover {
   border: 1px solid transparent;
@@ -222,6 +257,19 @@ body {
   background-color: var(--accent-color);
   color: var(--bgc-text-hero);
 }
+.container-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  outline: 2px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img-prtf {
+  width: 370px;
+  padding-bottom: 30px;
+}
+
 .name-card {
   font-weight: bold;
   font-size: 18px;
