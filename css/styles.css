@@ -41,10 +41,13 @@ img {
   align-items: center;
 }
 .page-header {
+  border-bottom-style: solid;
+  border-color: #ececec;
+  border-width: 1px;
 }
 .container {
   width: 1200px;
-  outline: 2px solid tomato;
+
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -141,7 +144,6 @@ img {
 }
 /* -------------------------------------------hero--------------------------------- */
 .hero {
-  outline: 2px solid tomato;
   margin-top: 0;
 
   background-color: var(--hero-bgc);
@@ -152,8 +154,9 @@ img {
   font-size: 44px;
   line-height: 1.36;
   color: var(--bgc-text-hero);
-  margin-top: 0px;
-  margin-bottom: 40px;
+  padding: 200px 452px 30px 452px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* ----------------------------------------button--------------------------- */
 
@@ -166,8 +169,8 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-
   letter-spacing: 0.06em;
+  margin-bottom: 200px;
 }
 .button:hover {
   background-color: #188ce8;
@@ -183,7 +186,7 @@ img {
 .feature-list-button {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 34px;
 }
 .container-benefits {
@@ -222,6 +225,22 @@ img {
   font-size: 16px;
   line-height: 1.18;
   color: var(--benefits);
+}
+.master-bottom {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.shadow {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.shadow-img {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 /* ----------------------------foter-------------- */
 
@@ -284,7 +303,6 @@ img {
 }
 .container-portfolio {
   width: 1200px;
-  outline: 2px solid tomato;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -314,10 +332,25 @@ img {
   font-size: 18px;
   line-height: 2;
   color: var(--zaholovokh2);
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 .content-card {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   color: var(--benefits);
+  margin: 0;
+  padding: 0px 24px 20px 24px;
+}
+.border-img {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color: #ececec;
+  border-width: 1px;
+  width: 368px;
 }
