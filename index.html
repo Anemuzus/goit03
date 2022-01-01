@@ -13,7 +13,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -29,7 +29,7 @@
             <li class="link-margin link-m-b">
               <a href="./portfolio.html" class="link klik">Портфолио</a>
             </li>
-            <li class="link-m-b"><a href="" class="link link-last klik">Контакты</a></li>
+            <li class="link-margin link-m-b"><a href="" class="link klik">Контакты</a></li>
           </ul>
         </nav>
         <ul class="mailtel list">
@@ -45,9 +45,11 @@
     <!-- ----------------------------------------------- HERO------------------------------------ -->
     <main>
       <section class="hero">
-        <h1 class="title-hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <div class="container">
+          <h1 class="title-hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
 
-        <button type="button" class="button">Заказать услугу</button>
+          <button type="button" class="button">Заказать услугу</button>
+        </div>
       </section>
       <!-- ---------------------------------------------------------------------преимущества -->
       <section class="section">
@@ -103,36 +105,32 @@
           <h2 class="zaholovok-comands">Наша команда</h2>
           <ul class="feature-list list">
             <li class="shadow">
-              <div class="shadow-img">
-                <img src="./images/img5.jpg" alt="мужчина" width="270" />
-              </div>
+              <img src="./images/img5.jpg" alt="мужчина" width="270" />
+
               <div class="master-bottom">
                 <h3 class="name-master">Игорь Демьяненко</h3>
                 <p lang="en" class="job-master">Product Designer</p>
               </div>
             </li>
             <li class="shadow">
-              <div class="shadow-img">
-                <img src="./images/img6.jpg" alt="женщина" width="270" />
-              </div>
+              <img src="./images/img6.jpg" alt="женщина" width="270" />
+
               <div class="master-bottom">
                 <h3 class="name-master">Ольга Репина</h3>
                 <p lang="en" class="job-master">Frontend Developer</p>
               </div>
             </li>
             <li class="shadow">
-              <div class="shadow-img">
-                <img src="./images/img7.jpg" alt="мужчина" width="270" />
-              </div>
+              <img src="./images/img7.jpg" alt="мужчина" width="270" />
+
               <div class="master-bottom">
                 <h3 class="name-master">Николай Тарасов</h3>
                 <p lang="en" class="job-master">Marketing</p>
               </div>
             </li>
             <li class="shadow">
-              <div class="shadow-img">
-                <img src="./images/img8.jpg" alt="мужчина" width="270" />
-              </div>
+              <img src="./images/img8.jpg" alt="мужчина" width="270" />
+
               <div class="master-bottom">
                 <h3 class="name-master">Михаил Ермаков</h3>
                 <p lang="en" class="job-master">UI Designer</p>
@@ -144,24 +142,29 @@
     </main>
     <!----------------------------footer----------------- -->
     <footer class="foter">
-      <a href="/" class="labe"> Web<span class="studio-footer">Studio</span> </a>
-      <address>
-        <ul class="footer-list">
-          <li>
-            <a
-              class="footer-href"
-              href="https://goo.gl/maps/ryX1TbydcaV9eqmX7"
-              target="_blank"
-              rel="noopener noreferre"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a class="footer-href transparent" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li><a class="footer-href transparent" href="tel:+380961111111">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="/" class="logo-fot"> Web<span class="studio-footer">Studio</span> </a>
+
+        <address>
+          <ul class="footer-list">
+            <li>
+              <a
+                class="footer-href"
+                href="https://goo.gl/maps/ryX1TbydcaV9eqmX7"
+                target="_blank"
+                rel="noopener noreferre"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="mail-margin-foter">
+              <a class="footer-href transparent" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li>
+              <a class="footer-href transparent" href="tel:+380961111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
