@@ -155,7 +155,9 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
   margin-top: 0;
-
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: var(--hero-bgc);
   text-align: center;
 }
