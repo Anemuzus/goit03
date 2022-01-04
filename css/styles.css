@@ -166,6 +166,12 @@ a {
   color: var(--bgc-text-hero);
   margin-top: 0;
   margin-bottom: 30px;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cont-title-hero {
+  text-align: center;
 }
 /* ----------------------------------------button--------------------------- */
 
@@ -184,6 +190,11 @@ a {
   background-color: #188ce8;
 }
 /* ----------------------------------------benefits */
+
+.pading-zero {
+  padding-top: 0px;
+}
+
 /* ---------управление Дисплей Флексом на списках,кроме Хедера и Футера */
 .feature-list {
   display: flex;
@@ -280,9 +291,11 @@ a {
   margin-bottom: 20px;
   display: block;
 }
-.mail-margin-foter {
-  padding-top: 9px;
-  padding-bottom: 9px;
+.list-margin-foter {
+  margin-bottom: 9px;
+}
+.list-margin-foter:last-child {
+  margin-bottom: 0px;
 }
 .studio-footer {
   color: var(--bgc-text-hero);
